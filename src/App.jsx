@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
+import Service from './components/services/Service'
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <>
       
         <Navbar/>
+        <Service/>
     </>
   )
 }
