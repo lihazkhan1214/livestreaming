@@ -1,0 +1,144 @@
+.about{
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+
+
+    align-items:center;
+    gap: 50px;
+   
+
+     
+}
+.aboutsection{
+    background-color: rgba(20, 13, 61, 1);
+}
+.hero{
+    width: 100%;
+}
+.hero img {
+    width: 100%;
+
+}
+
+
+
+.aboutcontainer .card {
+  
+    width: 300px;
+    height: 450px;
+    margin-top: 100px;
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;  
+gap: 20px; 
+position: absolute;
+top: 100px;
+margin-left: 50px;
+padding: 10px;
+
+background-color: rgba(20, 13, 61, 1);
+ 
+padding: 10px;
+    border: 2.21px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid white;
+    border-radius:20px 20px 0px 0px;
+    
+}
+.aboutcontainer .card .cardimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -90px;
+    
+}
+.aboutcontainer .card .cardtitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+}
+.aboutcontainer .card .cardinfo{
+    border: 1px solid rgb(193, 190, 190);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.aboutcontainer .card .cardinfo ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+.aboutcontainer .card .cardinfo ul li{
+    color: #FFF;
+    font-size: 16px;
+}
+
+.countinfo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.countinfo .countdiv{
+    border-right: 1px solid white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: 
+    center;
+    align-items: center;
+
+}
+
+.countinfo .countdiv h4{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+.countinfo .countdiv p{
+    font-size: 14px;
+    color: #FFF;
+}
+#lastdiv{
+    border: none;
+}
+
+.about .card button{
+    background: rgb(12, 160, 205);
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    width:160px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.about .rightside {
+    width: 70%;
+}
+
+.about .rightside .heading{
+    font-size: 36px;
+    color: #FFF;
+    font-weight: 600;
+}
+.about .rightside .desc{
+    font-size: 16px;
+    color: #FFF;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
